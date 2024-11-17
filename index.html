@@ -4,8 +4,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Register / Home</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://github.com/SebastianBenjamin/stock-register-resources/blob/main/favicon.png?raw=true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body>
+<body >
+    <div class="header">
+        <div class="header-icon">
+            <img src="https://github.com/SebastianBenjamin/stock-register-resources/blob/main/icon-100x100.png?raw=true" alt="stock-register-icon">
+            STOCK REGISTER
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li onclick="loadInpage()" id="loadin"  > In</li>
+                <li onclick="loadOutpage()" id="loadout"> Out</li>
+                <li onclick="loadDmgpage()" id="loaddmg">Damaged </li>
+                <li onclick="loadOvpage()" id="loadovr" > Overview</li>
+            </ul>
+        </div>
+    </div>
+    <div class="overview-header" id="overview-header">
+
+    </div>
+ <div class="content-parent" id="content-parent">
+   
+
+ </div>
+ <div class="pop" id="pop">
+
+ </div>
+ <script src="script.js" type="module"></script>
+ 
+ 
     
 </body>
 </html>
